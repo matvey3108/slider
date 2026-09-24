@@ -1,0 +1,19 @@
+.kit-img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.kit-img img {
+    position: absolute;
+    display: none;
+}
+
+.div-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto;
+    
+}
