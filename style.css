@@ -1,14 +1,20 @@
-.kit-img {
+.wrapper {
+    margin: 0 auto;
     width: 400px;
     height: 400px;
-    position: relative;
-    margin: 0 auto;
+    overflow: hidden;
 }
 
-.kit-img img {
-    position: absolute;
-    display: none;
+.kit-img {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: 1s;
+    left:0px;
 }
+
 
 .div-buttons {
     display: flex;
